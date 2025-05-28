@@ -1,0 +1,66 @@
+/* CSS Gerais */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    height: 100vh;
+}
+
+.calcada {
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+/* CSS dos controles */
+
+.controles {
+    height: 100px;
+    background-color: #222;
+}
+
+/* CSS rua */
+
+.rua {
+    display: flex;
+    align-items: center;
+    height: 100px;
+    background-color: #777;
+    gap: 30px;
+    border-top: 10px solid white
+}
+
+.rua > .faixa {
+    flex: 1;
+    height: 10px;
+    background-color: #DDD;
+}
+
+/* CSS árvore */
+.arvore {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.arvore::before {
+    content: "";
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: green;
+}
+
+.arvore::after {
+    content: "";
+    width: 20px;
+    height: 100px;
+    background-color: #4d3131;
+}
