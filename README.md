@@ -2,7 +2,7 @@
 
 Um projeto interativo que simula o funcionamento de um elevador em um prédio de 6 andares, desenvolvido com HTML, CSS e JavaScript puro.
 
-![Captura de Tela do Simulador de Elevador](screenshot.png)
+![Captura de Tela do Simulador de Elevador](images/screenshot.png)
 
 *Interface do simulador mostrando o elevador no 4º andar com controles e visualização do prédio*
 
@@ -71,6 +71,9 @@ php -S localhost:8000
 ```
 Elevador/
 ├── index.html          # Arquivo principal HTML
+├── README.md           # Documentação do projeto
+├── images/
+│   └── screenshot.png  # Captura de tela do projeto
 ├── css/
 │   └── estilo.css      # Estilos CSS do projeto
 └── js/
